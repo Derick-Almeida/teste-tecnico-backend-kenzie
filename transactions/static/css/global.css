@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --grey: #ffffff40;
+    --pink-0: #ff2d7544;
+    --pink-1: #ff2d75;
+    --pink-2: #ff4484;
+    --yellow: #ffeb3b;
+    --blue-0: #4fc3dc44;
+    --blue-1: #4fc3dc;
+    --blue-2: #0fb4ff;
+    --green: #0f0;
+}
+
+body {
+    background: var(--black);
+}
