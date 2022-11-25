@@ -40,8 +40,8 @@ def treat_data(request):
                 }
             )
 
-    # for transaction in transactions_data:
-    #     Transaction.objects.create(**transaction)
+    for transaction in transactions_data:
+        Transaction.objects.create(**transaction)
 
     return HttpResponseRedirect("/transactions/")
 
